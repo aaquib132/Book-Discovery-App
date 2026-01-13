@@ -157,7 +157,6 @@ npm run dev
 
 <ul>
   <li>Book search</li>
-  <li>Netflix-style category browsing</li>
   <li>Book detail pages</li>
   <li>Favorites add/remove</li>
   <li>JSON persistence</li>
