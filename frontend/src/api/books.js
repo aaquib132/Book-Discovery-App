@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://book-discovery-app.onrender.com"
+  baseURL: "https://book-discovery-app.onrender.com/api"
 });
 
 export const searchBooks = (query) =>
