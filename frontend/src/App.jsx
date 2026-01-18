@@ -15,12 +15,9 @@ export default function App() {
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center gap-8">
                 <Link to="/" className="text-2xl font-bold bg-linear-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
-                  BookLibrary
+                  Book Nest
                 </Link>
                 <div className="hidden md:flex items-center gap-6">
-                  <Link to="/" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">
-                    Home
-                  </Link>
                   <Link to="/favorites" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">
                     Favorites
                   </Link>
