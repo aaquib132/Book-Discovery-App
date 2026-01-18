@@ -18,6 +18,9 @@ export default function App() {
                   Book Nest
                 </Link>
                 <div className="hidden md:flex items-center gap-6">
+                   <Link to="/" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">
+                    Home
+                  </Link>
                   <Link to="/favorites" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">
                     Favorites
                   </Link>
